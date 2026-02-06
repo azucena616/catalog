@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.opciones{
+    text-align: center;
+    width: 100%; 
+    text-decoration: none;
+    color:aliceblue;
+    cursor: pointer;
+    padding:15px;
+}
+a:hover {
+    background-color: rgb(75, 70, 70);
+}
+
+.menu{
+    list-style: none;
+    list-style-position: horizontal;
+    display:inline-block;
+    
+}
+nav{
+    background-color: black;
+    padding:15px;
+}
