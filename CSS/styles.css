@@ -4,6 +4,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+header{
+    z-index: 1000;
+    position: fixed;
+    width:100%;
+}
 
 .opciones{
     text-align: center;
@@ -17,27 +22,43 @@
 a:hover {
     background-color: rgb(75, 70, 70);
 }
+.login{
+    background-color: rgb(169, 164, 164);
+    height:35px;
+    display:flex;
+    align-items: center;
 
+}
+.logo{
+    width:60px;
+}
+.texto_login{
+    margin-top: 18px;
+}
 .menu{
     list-style: none;
     list-style-position: horizontal;
     display:inline-block;
-   
 }
 nav{
     background-color: black;
     padding:15px;
     text-align:center;
     display: flex;
-    justify-content: space-between; /* en vez de space between puedes ir jugando con otro valores*/
+    position:fixed;
+    justify-content:space-between; /* en vez de space between puedes ir jugando con otro valores*/
     /* cspace between te pone todo los elementos pegados al borde, puedes calar space around, center, start, end, etc.*/
 }
 .buscar{
-    width: 200px;
+    width: 240px;
+    height: 45px;
+    border-radius:40px;
 }
 .btn_buscar{
 color:rgb(157, 157, 172);
 border:1px solid rgb(157, 157, 172);
+margin-right: 0;
+height: 45px;
 }
 .tenis{
     width:50%!important;
